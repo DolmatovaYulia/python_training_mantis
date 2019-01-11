@@ -1,0 +1,29 @@
+[
+  {
+    "py/object": "model.project.Project",
+    "description": "namejEyyTLeb <W/SrndDQDu #Ygox{>5 nQa T",
+    "id": null,
+    "inherit_global": 0,
+    "name": "name 2aA:C",
+    "status": "release",
+    "view_state": "private"
+  },
+  {
+    "py/object": "model.project.Project",
+    "description": "name@",
+    "id": null,
+    "inherit_global": 0,
+    "name": "nameT`i",
+    "status": "release",
+    "view_state": "private"
+  },
+  {
+    "py/object": "model.project.Project",
+    "description": "namehR:",
+    "id": null,
+    "inherit_global": 0,
+    "name": "name",
+    "status": "stable",
+    "view_state": "public"
+  }
+]

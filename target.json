@@ -1,0 +1,9 @@
+{
+  "web": {
+    "baseUrl": "http://mantisbt/login_page.php"
+  },
+  "webadmin": {
+      "username": "administrator",
+      "password": "root"
+    }
+}
