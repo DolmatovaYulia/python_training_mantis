@@ -38,7 +38,7 @@ def app(request, config):
     webadmin_config = config['webadmin']
     if fixture is None or not fixture.is_valid():
         # функция создает объект класса Application
-        fixture = Application(browser=browser, base_url=config['web']['baseUrl'])
+        fixture = Application(browser=browser, config=config)
     # fixture.session.ensure_Login(username=webadmin_config['username'], password=webadmin_config['password'])
     return fixture
 
