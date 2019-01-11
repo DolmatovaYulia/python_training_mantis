@@ -3,7 +3,12 @@
     "baseUrl": "http://mantisbt/login_page.php"
   },
   "webadmin": {
-      "username": "administrator",
-      "password": "root"
-    }
+    "username": "administrator",
+    "password": "root"
+  },
+  "ftp": {
+    "host": "localhost",
+    "username": "mantis",
+    "password": "mantis"
+  }
 }
