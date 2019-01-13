@@ -1,6 +1,7 @@
 from telnetlib import Telnet
 
 
+# Создание пользователя на почтовом сервере
 class JamesHelper:
     def __init__(self, app):
         self.app = app

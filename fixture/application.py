@@ -2,6 +2,8 @@ from selenium import webdriver
 from fixture.session import SessionHelper
 from fixture.project import ProjectHelper
 from fixture.james import JamesHelper
+from fixture.signup import SighUpHelper
+from fixture.mail import MailHelper
 
 
 # The class that contains all the helper methods.
@@ -19,6 +21,8 @@ class Application:
         self.session = SessionHelper(self)
         self.project = ProjectHelper(self)
         self.james = JamesHelper(self)
+        self.signup = SighUpHelper(self)
+        self.mail = MailHelper(self)
         self.config = config
         self.base_url = config['web']['baseUrl']
 
