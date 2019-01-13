@@ -4,6 +4,7 @@ from fixture.project import ProjectHelper
 from fixture.james import JamesHelper
 from fixture.signup import SighUpHelper
 from fixture.mail import MailHelper
+from fixture.soap import SoapHelper
 
 
 # The class that contains all the helper methods.
@@ -23,6 +24,7 @@ class Application:
         self.james = JamesHelper(self)
         self.signup = SighUpHelper(self)
         self.mail = MailHelper(self)
+        self.soap = SoapHelper(self)
         self.config = config
         self.base_url = config['web']['baseUrl']
 

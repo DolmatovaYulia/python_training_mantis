@@ -39,7 +39,7 @@ def app(request, config):
     if fixture is None or not fixture.is_valid():
         # функция создает объект класса Application
         fixture = Application(browser=browser, config=config)
-    # fixture.session.ensure_Login(username=webadmin_config['username'], password=webadmin_config['password'])
+    fixture.session.ensure_Login(username=webadmin_config['username'], password=webadmin_config['password'])
     return fixture
 
 
