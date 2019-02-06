@@ -46,6 +46,7 @@ def app(request, config):
 @pytest.fixture(scope="session", autouse=True)
 def configure_server(request, config):
     install_server_configuration(config['ftp']['host'], config['ftp']['username'], config['ftp']['password'])
+
     def fin():
         # Восстановление конфигурации сервера
         restore_server_configuration(config['ftp']['host'], config['ftp']['username'], config['ftp']['password'])

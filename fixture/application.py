@@ -30,7 +30,7 @@ class Application:
 
     def Open_homepage(self):
         wd = self.wd
-        if not (wd.current_url.endswith("http://addressbook/") and len(wd.find_elements_by_name("MassCB")) > 0):
+        if not (wd.current_url.endswith("http://mantisbt/my_view_page.php")):
             wd.get(self.base_url)
 
     def Destroy(self):
